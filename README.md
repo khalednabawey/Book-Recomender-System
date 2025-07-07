@@ -1,15 +1,3 @@
----
-title: Book Recommender System
-emoji: 🏆
-colorFrom: blue
-colorTo: indigo
-sdk: gradio
-sdk_version: 5.35.0
-app_file: app.py
-pinned: false
----
-
-
 # Hybrid Book Recommender System
 
 This is a **Hybrid Recommendation System** deployed on Hugging Face Spaces using **Gradio**.  
@@ -18,7 +6,6 @@ It combines **Collaborative Filtering (SVD++)** and **Content-Based Filtering** 
 🔗 **Live Demo**: [Check it out on Hugging Face Spaces](https://huggingface.co/spaces/khalednabawi11/Book-Recommender-System)  
 
 ---
-
 ## Features
 
 - **Hybrid Model**: Combines collaborative filtering and content-based filtering for more accurate recommendations.  
@@ -26,9 +13,9 @@ It combines **Collaborative Filtering (SVD++)** and **Content-Based Filtering** 
 - **Book Covers**: Shows book covers alongside titles for a more visual experience.  
 - **Gradio**: Backend runs on FastAPI, frontend built with Gradio for an interactive experience.  
 - Model loaded from Kaggle Models using `kagglehub`.  
-
 ---
 
+---
 ## How It Works
 
 1. **For registered users**:
