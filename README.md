@@ -5,9 +5,9 @@ It combines **Collaborative Filtering (SVD++)** and **Content-Based Filtering** 
 
 🔗 **Live Demo**: [Check it out on Hugging Face Spaces](https://huggingface.co/spaces/khalednabawi11/Book-Recommender-System)  
 
----
-## Features
 
+## Features
+---
 - **Hybrid Model**: Combines collaborative filtering and content-based filtering for more accurate recommendations.  
 - **Cold Start Ready**: Recommends top-rated books to new users with no prior ratings.  
 - **Book Covers**: Shows book covers alongside titles for a more visual experience.  
@@ -15,9 +15,9 @@ It combines **Collaborative Filtering (SVD++)** and **Content-Based Filtering** 
 - Model loaded from Kaggle Models using `kagglehub`.  
 ---
 
----
-## How It Works
 
+## How It Works
+---
 1. **For registered users**:
    - Predicts ratings for books the user hasn’t rated yet.
    - Shows the top N books sorted by predicted rating.
@@ -30,9 +30,9 @@ It combines **Collaborative Filtering (SVD++)** and **Content-Based Filtering** 
 
 ---
 
----
-## Project Structure
 
+## Project Structure
+---
 - ├── app.py # Main Gradio app
 - ├── requirements.txt # Dependencies
 - ├── README.md
@@ -65,11 +65,11 @@ python app.py
 ```
 
 ## Model Details
-
+```
 - Collaborative Filtering: SVD++ trained on user-item ratings.
 - Content-Based Filtering: Uses book metadata (title, genres, etc.).
 - Hybrid approach balances both for better personalization.
-
+```
 
 ## Deployment
 ```
