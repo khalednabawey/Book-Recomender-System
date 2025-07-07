@@ -8,24 +8,24 @@ It combines **Collaborative Filtering (SVD++)** and **Content-Based Filtering** 
 
 ## Features
 ```
-- **Hybrid Model**: Combines collaborative filtering and content-based filtering for more accurate recommendations.  
-- **Cold Start Ready**: Recommends top-rated books to new users with no prior ratings.  
-- **Book Covers**: Shows book covers alongside titles for a more visual experience.  
-- **Gradio**: Backend runs on FastAPI, frontend built with Gradio for an interactive experience.  
+- Hybrid Model: Combines collaborative filtering and content-based filtering for more accurate recommendations.  
+- Cold Start Ready: Recommends top-rated books to new users with no prior ratings.  
+- Book Covers: Shows book covers alongside titles for a more visual experience.  
+- Gradio: Backend runs on FastAPI, frontend built with Gradio for an interactive experience.  
 - Model loaded from Kaggle Models using `kagglehub`.  
 ```
 
 
 ## How It Works
 ```
-1. **For registered users**:
+1. For registered users:
    - Predicts ratings for books the user hasn’t rated yet.
    - Shows the top N books sorted by predicted rating.
 
-2. **For new users**:
+2. For new users:
    - Recommends globally top-rated books as a fallback (cold start).  
 
-3. **Visual Output**:
+3. Visual Output:
    - Book title, predicted rating, and cover image in a neat table.
 
 ```
